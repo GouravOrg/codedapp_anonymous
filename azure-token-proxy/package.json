@@ -1,0 +1,22 @@
+{
+  "name": "azure-token-proxy",
+  "version": "1.0.0",
+  "description": "Azure Function token proxy for UiPath Confidential External App authentication",
+  "main": "dist/src/functions/getToken.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "watch": "tsc -p tsconfig.json --watch",
+    "start": "npm run build && func start",
+    "prestart": "npm run build"
+  },
+  "dependencies": {
+    "@azure/functions": "^4.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "~5.7.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

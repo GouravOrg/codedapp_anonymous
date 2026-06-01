@@ -1,0 +1,8 @@
+{
+  "clientId": "20e593be-dfad-4198-ad5d-55cce62a2d2a",
+  "scope": "DataFabric.Schema.Read DataFabric.Data.Write",
+  "orgName": "uipath_gourav",
+  "tenantName": "Sonic_IXP",
+  "baseUrl": "https://cloud.uipath.com",
+  "redirectUri": "http://localhost:5173"
+}
